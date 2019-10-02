@@ -22,10 +22,9 @@ echo "Wat wil je doen?(+,-,/)".PHP_EOL;
                 if ($var == "/") {
                     $c = $a / $b;
                     echo "Antwoord : $c";
-                } else {
-                    echo "Antwoord ongeldig" . PHP_EOL;
                 }
-            } else {
+            }
+            else {
                 exit("Ongeldig" . PHP_EOL);
             }
         }
@@ -33,4 +32,8 @@ echo "Wat wil je doen?(+,-,/)".PHP_EOL;
         {
             exit("Ongeldig" . PHP_EOL);
         }
+    }
+    else
+    {
+        exit("Ongeldig".PHP_EOL);
     }
